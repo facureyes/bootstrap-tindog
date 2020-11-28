@@ -55,3 +55,31 @@ body{
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding : 5%;
+}
+
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-desc{
+    color: #8f8f8f;
+}
