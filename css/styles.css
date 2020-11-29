@@ -111,3 +111,28 @@ body{
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    padding: 7% 10%;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.pricing-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pricing-subtitle{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.pricing-desc{
+    color: #8f8f8f;
+}
