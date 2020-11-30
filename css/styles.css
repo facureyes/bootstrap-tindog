@@ -37,7 +37,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .btn-download{
@@ -47,12 +47,29 @@ body{
 .img-title{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width:1120px){
+    .img-title{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        padding-top: 50px;
+    }
+
+    #title{
+        text-align: center;
+    }
 }
 
 
 /* Features */
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 .feature-box{
@@ -81,7 +98,7 @@ body{
 /* Testimonial */
 #testimonials{
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #ef8172;
     color: white;
 }
 
@@ -102,7 +119,7 @@ body{
 }
 
 #press{
-    background-color: #ff4c68;
+    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
