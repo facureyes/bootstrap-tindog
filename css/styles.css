@@ -153,3 +153,45 @@ body{
 .pricing-desc{
     color: #8f8f8f;
 }
+
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7% 20%;
+    text-align: center;
+    
+}
+
+.cta-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+/* Footer */
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: white;
+    padding: 5% 15%;
+
+}
+
+.social-icon{
+    color: black;
+    padding: 1rem;
+
+}
+
+.social-icon:hover{
+    color: #ff4c68;
+}
+
+.copyright{
+    color: #8f8f8f;
+    padding: 1rem;
+}
