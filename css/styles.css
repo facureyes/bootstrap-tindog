@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 /* Navigation Bar */
@@ -23,20 +24,39 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
-/* Title Section*/
-#title{
-    background-color: #ff4c68;
-    color: white;
-}
 
-.title-header{
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+}
+
+.big-heading{
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
 .container-fluid{
+    padding: 7% 15%;
+    /* padding: 3% 15% 7%; */
+}
+
+
+/* Title Section*/
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid{
     padding: 3% 15% 7%;
 }
 
@@ -67,13 +87,11 @@ body{
 
 /* Features */
 #features{
-    padding: 7% 15%;
     background-color: white;
     position: relative;
 }
 
 .feature-box{
-    text-align: center;
     padding : 5%;
 }
 
@@ -86,7 +104,6 @@ body{
 }
 
 .feature-title{
-    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -97,7 +114,6 @@ body{
 
 /* Testimonial */
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
@@ -114,13 +130,8 @@ body{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
-
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -132,7 +143,6 @@ body{
 
 /* Pricing */
 #pricing{
-    text-align: center;
     padding: 7% 10%;
 }
 
@@ -154,31 +164,22 @@ body{
     color: #8f8f8f;
 }
 
+
 /* CTA */
 #cta{
     background-color: #ff4c68;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding: 7% 20%;
-    text-align: center;
-    
 }
 
 .cta-title{
-    font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
 
-
 /* Footer */
 #footer{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
     background-color: white;
-    padding: 5% 15%;
-
 }
 
 .social-icon{
