@@ -4,27 +4,6 @@ body{
     text-align: center;
 }
 
-/* Navigation Bar */
-.navbar{
-    padding: 0 0 4.5rem 0;
-}
-
-.navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.nav-item{
-    padding: 0 18px;
-}
-
-.nav-link{
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -49,15 +28,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Title Section*/
-#title{
+/* Sections */
+.colored-section{
     background-color: #ff4c68;
-    color: white;
-    text-align: left;
+    color: #ffffff;
 }
 
+.white-section{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+
+/* Title Section*/
 #title .container-fluid{
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .btn-download{
@@ -87,7 +96,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Features */
 #features{
-    background-color: white;
     position: relative;
 }
 
@@ -115,7 +123,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Testimonial */
 #testimonials{
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-title{
@@ -131,8 +138,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #press{
-    background-color: #ef8172;
     padding-bottom: 3%;
+    background-color: #ef8172;
 }
 
 .press-logo{
@@ -142,10 +149,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Pricing */
-#pricing{
-    padding: 7% 10%;
-}
-
 .pricing-col{
     padding: 3% 2%;
 }
@@ -166,11 +169,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* CTA */
-#cta{
-    background-color: #ff4c68;
-    color: white;
-}
-
 .cta-title{
     font-size: 3.5rem;
     line-height: 1.5;
@@ -178,10 +176,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Footer */
-#footer{
-    background-color: white;
-}
-
 .social-icon{
     color: black;
     padding: 1rem;
